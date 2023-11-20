@@ -1,0 +1,35 @@
+- Variables
+
+: i = 2
+: s = *H*
+: d = 3.14
+: b = true
+: a = {1;2}
+
+- If
+
+¡si {10>5}![
+    verdadero
+]
+
+- Ciclo For
+
+F(x:0, x<10, x++)[
+    imprimir(x)
+]
+
+- Funciones
+
+fun y()[
+    a = 1
+    return 1
+]
+
+-caso comentado
+
+¡si {10>5}![
+    verdadero
+]
+¡no![
+    falso
+]
